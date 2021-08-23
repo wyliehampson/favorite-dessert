@@ -7,7 +7,7 @@ dessert_iconic <- read_csv(here("data","iconic_desserts.csv")) %>%
 
 our_desserts <- read_csv(here("favorite_desserts.csv")) %>% 
   clean_names() %>% 
-  mutate(across(tolower(1:3))
+  mutate(favorite_dessert = tolower(favorite_dessert))
 
 str_detect(string = dessert_iconic$dessert, pattern = our_desserts$Favorite_dessert)                           
 
