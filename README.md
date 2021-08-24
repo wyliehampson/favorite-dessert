@@ -1,4 +1,4 @@
-# Wonderous favorite yummy desserts!
+# Wonderous favorite yummy treats!
 
 - Wylie: Lemon Bars
 - Julia: gluten free lava cake
