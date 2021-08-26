@@ -57,7 +57,7 @@ for (i in seq_along(our_desserts$Favorite_dessert)) {
   if (our_desserts$Favorite_dessert[i] %in% dessert_df$dessert) {
     print(paste(our_desserts$first_name[i], our_desserts$last_name[i], ": it's a Match!"))
   } else {
-    print(paste(our_desserts$first_name[i], our_desserts$last_name[i], ": Not a Match."))
+    print(paste(our_desserts$first_name[i], our_desserts$last_name[i], ": No Match."))
   }
 }
 
