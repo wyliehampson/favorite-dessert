@@ -55,7 +55,7 @@ our_desserts <- read_csv(here::here("favorite_desserts.csv")) %>%
 
 for (i in seq_along(our_desserts$Favorite_dessert)) {
   if (our_desserts$Favorite_dessert[i] %in% dessert_df$dessert) {
-    print(paste(our_desserts$first_name[i], our_desserts$last_name[i], ": It's a Match!"))
+    print(paste(our_desserts$first_name[i], our_desserts$last_name[i], ": It Matches!"))
   } else {
     print(paste(our_desserts$first_name[i], our_desserts$last_name[i], ": Not a Match."))
   }
